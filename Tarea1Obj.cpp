@@ -19,6 +19,7 @@ int main(){
     string num;
     while (Char == 'Y'){
         cout << "Teclea el numero de 9 digitos" << endl;
+        cin.ingore();
         getline(cin, num);
         r = residuo(num);
         if (r < 10){
